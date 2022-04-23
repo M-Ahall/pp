@@ -71,18 +71,18 @@ var (
 	ColoringEnabled = true
 
 	defaultScheme = ColorScheme{
-		Bool:            Cyan | Bold,
-		Integer:         Blue | Bold,
-		Float:           Magenta | Bold,
-		String:          Red,
-		StringQuotation: Red | Bold,
-		EscapedChar:     Magenta | Bold,
-		FieldName:       Yellow,
-		PointerAdress:   Blue | Bold,
-		Nil:             Cyan | Bold,
-		Time:            Blue | Bold,
-		StructName:      Green,
-		ObjectLength:    Blue,
+		Bool:            Green,
+		Integer:         Yellow,
+		Float:           Yellow,
+		String:          Cyan,
+		StringQuotation: NoColor,
+		EscapedChar:     Cyan | Bold,
+		FieldName:       Green,
+		PointerAdress:   Blue,
+		Nil:             Blue,
+		Time:            Yellow,
+		StructName:      Magenta,
+		ObjectLength:    Red,
 	}
 )
 
